@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Londrina Solid", sans-serif;
+}
+body{
+    background-color: #fbf4e8;
+
+
+}
+
+header{ 
+    height: 120px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(247, 224, 224, 0.432)
+    
+}
+.p{
+    margin-top: 20px;
+    color:#132d63;
+    opacity: 60%;
+}
+
+.logo{ 
+
+    width: 100px;
+    position: absolute;
+    left: 150px;
+}
+
+.but{
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    position: absolute;
+    right: 150px;
+}
+
+.butt{
+    border: 0;
+    color: white;
+    font-size: 15px ;
+    height: 30px;
+    width: 90px;
+    background-color: #cc8e36;
+    border-radius: 5px;
+    -webkit-box-shadow: -1px 7px 12px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 7px 12px -1px rgba(0,0,0,0.75);
+box-shadow: -1px 7px 12px -1px rgba(0,0,0,0.75);
+}
+
+.menu{ 
+    display: flex;
+    width: 700px;
+    height: 30px;
+    justify-content: space-between;
+    text-decoration: none;
+    font-size: 25px;
+    
+}
+
+#aa{ 
+    text-decoration: none;
+    color: white;
+    text-shadow: -1px  -1px 4px #132d63 ,
+                 1px  -1px 4px #132d63 ,
+                 -1px  1px 4px #132d63 ,
+                 1px  1px 4px #132d63 ;
+                
+}
+
+.card{ 
+    background-color: white;
+    border-radius: 20px;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    margin-left: 220px;
+    height: 63vh;
+    width: 67vw;
+    -webkit-box-shadow: 0px 5px 21px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 5px 21px -3px rgba(0,0,0,0.75);
+box-shadow: 0px 5px 21px -3px rgba(0,0,0,0.75);
+
+}
+
+
+.imagen { 
+    background-image: url(istockphoto-486620678-612x612.jpg);
+    border-radius: 10px;
+    margin-top: 60px;
+    margin: 50px;
+    -webkit-box-shadow: 0px 5px 21px 9px rgba(0,0,0,0.13);
+-moz-box-shadow: 0px 5px 21px 9px rgba(0,0,0,0.13);
+box-shadow: 0px 5px 21px 9px rgba(0,0,0,0.13);
+    height: 43vh;
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.desproduct{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px ;
+    height: 43vh;
+    width: 37vw;
+
+}
+.h1{
+    color: #132d63;
+margin: 30px;
+}
+
+.bot{ 
+    display: flex;
+    justify-content: center;
+    background-color: #132d63;
+    border-radius: 8px;
+    height: auto;
+    width: 11vw;
+    margin: 20px;
+}
+.boton{
+    background-color: transparent;
+    border: 0;
+    font-size: 20px;
+    color: white;
+
+}
+.bag{
+    margin: 8px;
+}
+
+a{
+    text-decoration: none;
+    margin: 4px;
+    
+}

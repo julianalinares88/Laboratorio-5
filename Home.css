@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Londrina Solid", sans-serif;
+}
+body{
+    background-color: #fbf4e8;
+
+
+}
+header{ 
+    height: 100px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(247, 224, 224, 0.432)
+}
+.logo{ 
+
+    width: 100px;
+    position: absolute;
+    left: 150px;
+}
+
+.but{
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    position: absolute;
+    right: 150px;
+}
+
+.butt{
+    border: 0;
+    color: white;
+    font-size: 15px ;
+    height: 30px;
+    width: 90px;
+    background-color: #cc8e36;
+    border-radius: 5px;
+    -webkit-box-shadow: -1px 7px 12px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 7px 12px -1px rgba(0,0,0,0.75);
+box-shadow: -1px 7px 12px -1px rgba(0,0,0,0.75);
+}
+
+.menu{ 
+    display: flex;
+    width: 700px;
+    height: 30px;
+    justify-content: space-between;
+    text-decoration: none;
+    font-size: 25px;
+    
+}
+.banner{
+    
+    height: 60vh;
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(https://store.supercell.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero-desktop.b13872df.png&w=1920&q=75);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 4%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-top: 30px;
+}
+.hayday{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    height: 10vh;
+    width: 25vw;
+    font-size: 85px;
+    opacity: 90%;
+}
+
+.fil{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: solid #132d63;
+    margin: 5px;
+}
+
+.filtrado{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    margin-bottom: 40px;
+    margin-right: 170px;
+}
+
+#iim{
+    margin-right: 3px;
+}
+ 
+#busq{ 
+    background-color: transparent;
+    height: 35px;
+    width: 200px;
+    border: 0;
+    margin-left: 4px;
+    font-size: 20px;
+    opacity: 60%;
+}
+
+.nombredm{ 
+    height:150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    margin: 25px;
+    color: #132d63; 
+    
+}
+
+.p{
+    color:#132d63;
+    opacity: 60%;
+}
+#diamantes1{
+    
+    height: 60vh;
+    /* background-color: rgb(213, 213, 213); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 2rem;
+}
+
+#diamantes2{
+
+    height: 60vh;
+    /* background-color: rgb(213, 213, 213); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 2rem;
+}
+
+.producto{ 
+    
+    border-radius: 20px;
+    height: 300px;
+    width:  300px;
+    -webkit-box-shadow: 2px 2px 25px 2px rgba(0,0,0,0.57);
+-moz-box-shadow: 2px 2px 25px 2px rgba(0,0,0,0.57);
+box-shadow: 2px 2px 25px 2px rgba(0,0,0,0.57);
+}
+
+.fotoproduct{
+    border-top-left-radius: 20px ;
+    border-top-right-radius: 20px;
+    background-image: url(./istockphoto-486620678-612x612.jpg);
+    height: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.descripcion{
+    color: #132d63 ;
+    border-radius: 20px;
+    
+    height: 50%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.bot{ 
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    border-radius: 8px;
+    height: auto;
+    width: 11vw;
+}
+.boton{
+    background-color: transparent;
+    border: 0;
+    font-size: 20px;
+    color: white;
+
+}
+.bag{
+    margin: 8px;
+}
+a{
+    text-decoration: none;
+    margin: 3px;
+}
+#aa{ 
+    text-decoration: none;
+    color: white;
+    text-shadow: -1px  -1px 4px #132d63 ,
+                 1px  -1px 4px #132d63 ,
+                 -1px  1px 4px #132d63 ,
+                 1px  1px 4px #132d63 ;
+                
+}
